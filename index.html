@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/remodal-default-theme.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/remodal.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+  <!-- НАВИГАЦИЯ -->
+  <header>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">SHOOESSHOP</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">SHOOESSHOP</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">НОВИНКИ</a></li>
+          <li>
+            <a href="#">БРЕНДЫ</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">NIKE</a></li>
+              <li><a href="#">DEMIX</a></li>
+              <li><a href="#">ZENDEN</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">ЖЕНСКАЯ ОБУВЬ</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">ДЕЛОВАЯ ОБУВЬ</a></li>
+                  <li><a href="#">СПОРТИВНАЯ</a></li>
+            </ul>
+          </li>
+          <li><a href="#">О НАС</a></li>
+          <li><a href="#">КОНТАКТЫ</a></li>
+         <li> <a class="mainButton" href="#modal">РЕГИСТРАЦИЯ</a>
+
+<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+ <div class="remodalBorder">
+  <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+      <form id="form">
+        <h2 id="modal1Title">ВВЕДИТЕ ЛИЧНЫЕ ДАННЫЕ ДЛЯ РЕГИСТРАЦИИ </h2>
+        <input type="text" class="putName" name="name" placeholder="Ваше ваше имя" required>
+        <input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона" required>
+        <input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+    </form>
+</div>
+</div></li>
+
+<script src="js/remodal.min.js"></script>
+
+
+        </ul>
+      
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    </header>
+<!-- ОСНОВНОЕ -->
+
+  <main class="container">
+    <div class="collection_div">
+    <a href=" #" class="collection"> <img src="./image/main.jpg" alt="" class="collection_img"> </a></div>
+    <h2 class="collection_text">
+   НАШИ ТОВАРЫ
+    </h2>
+   
+    <div class="list">
+     <li data-color=".featured">Лидеры продаж</li>
+     <li onclick="sales()" data-color=".Arrivals">Скидки</li>
+     <li data-color=".Special">Новинки</li>
+     <li onclick="Alls()" data-color=".All">Смотреть всё</li>
+   </div>
+   
+   
+   </div>
+     
+<!-- КАРТОЧКИ -->
+
+   <div class="box_flex">
+     <div class="box All featured">
+       <div class="content">
+         <div class="all-content featured">
+           <p>Хит</p>
+           <img src="./images/izb.png" alt="" />
+         </div>
+         <div class="box_img">
+           <img src="./image/Del1.jpg" alt="" />
+         </div>
+         <p class="opisanie">Ботинки мужские INSTREET</p>
+    
+         <div class="buy">
+           <p>3900 ₽</p>
+           <button>Купить</button>
+         </div>
+       </div>
+     </div>
+     <div class="box All featured">
+       <div class="content">
+         <div class="all-content featured">
+           <p>Хит</p>
+           <img src="./images/izb.png" alt="" />
+         </div>
+         <div class="box_img">
+           <img src="./image/sport1.jpg" alt="" />
+         </div>
+         <p class="opisanie">
+           Кроссовки  Nike
+         </p>
+         <div class="stars">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <div class="buy">
+           <p>2000р</p>
+           <button>Купить</button>
+         </div>
+       </div>
+     </div>
+   
+     <div class="box All featured">
+       <div class="content">
+         <div class="all-content featured">
+           <p>Хит</p>
+           <img src="./images/izb.png" alt="" />
+         </div>
+         <div class="box_img">
+           <img src="./image/Woman1.jpg" alt="" />
+         </div>
+         <p class="opisanie">Женская обувь INSTREE</p>
+         <div class="stars">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <div class="buy">
+           <p>3000 ₽</p>
+           <button>Купить</button>
+         </div>
+       </div>
+     </div>
+     <div class="box All Special">
+       <div class="content">
+         <div class="all-content Special">
+           <p>New</p>
+           <img src="./images/izb.png" alt="" />
+         </div>
+         <div class="box_img">
+           <img src="./image/Del2.jpg" alt="" />
+         </div>
+        
+         <p class="opisanie">
+           Ботинки мужские ZENDEN
+         </p>
+         <div class="stars">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <div class="buy">
+           <p>2300 ₽</p>
+           <button>Купить</button>
+         </div>
+       </div>
+     </div>
+     <div class="box All Special">
+       <div class="content">
+         <div class="all-content Special">
+           <p>New</p>
+           <img src="./images/izb.png" alt="" />
+         </div>
+         <div class="box_img">
+           <img src="./image/Sport2.jpg" />
+         </div>
+         <p class="opisanie">
+           Кроссовки  INSTREET
+         </p>
+         <div class="stars">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <div class="buy">
+           <p>3950 ₽</p>
+           <button>Купить</button>
+         </div>
+       </div>
+     </div>
+     <div class="box All Special">
+       <div class="content">
+         <div class="all-content Special">
+           <p>New</p>
+           <img src="./images/izb.png" alt="" />
+         </div>
+         <div class="box_img">
+           <img src="./image/Woman2.jpg " />
+         </div>
+         <p class="opisanie">Сандали женские INSTREET</p>
+         <div class="stars">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <div class="buy">
+   
+           <p>1300 ₽</p>
+           <button>Купить</button>
+         </div>
+       </div>
+     </div>
+   
+     <div class="box All Arrivals">
+       <div class="content">
+         <div class="all-content Arrivals">
+           <p>Sale</p>
+           <img src="./images/izb.png" alt="" />
+         </div>
+         <div class="box_img">
+           <img src="./image/Sport3.jpg" alt="" />
+         </div>
+         <p class="opisanie">Кроссовки Zenden</p>
+         <div class="stars">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <div class="buy">
+           <div class="sale-content">
+             <p>3500 ₽</p>
+             </div>
+             <button>Купить</button>
+         </div>
+       </div>
+     </div>
+   
+     <div class="box All Arrivals">
+       <div class="content">
+         <div class="all-content Arrivals">
+           <p>Sale</p>
+           <img src="./images/izb.png" alt="" />
+         </div>
+         <div class="box_img">
+           <img src="./image/Woman3.jpg" alt="" />
+         </div>
+         <p class="opisanie">
+           Женская обувь Zenden
+         </p>
+         <div class="stars">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <div class="buy">
+           <div class="sale-content">
+             <p>3000 ₽</p>
+           </div>
+             <button>Купить</button>
+           
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+   <!-- ГРИДЫ -->
+   <h2 class="collection_text">ОБУВЬ ДЛЯ ВСЕХ</h2>
+   <div class="grid">
+     <div class="card1"><img src="./image/Мужчина.png" alt="" /></div>
+     <div class="card1"><img src="./image/Женщин.png" alt="" /></div>
+     <div class="card1"><img src="./image/Ребенок.png" alt="" /></div>
+   </div>
+   
+   
+<!-- СЛАЙДЕР -->
+
+   <h3 class="otziv">НАШИ БРЕНДЫ</h3>
+    <div class="slide-container swiper">
+         <div class="slide-content">
+           <div class="card-wrapper swiper-wrapper">
+             <div class="card swiper-slide">
+               <div class="image-content">
+                 <span class="overlay"></span>
+   
+                 <div class="card-image">
+                   <img src="./image/Brend1.png" alt="" class="card-img" />
+                 </div>
+               </div>
+   
+               <div class="card-content">
+                 <h2 class="name">INSTREET</h2>
+                 <p class="description">
+                  Высокое качество, однако доля ручного труда не слишком высока; финишинг очень хороший, но явно не лучший; кожа очень хорошая.
+                 </p>
+   
+                 <button class="button">К ПОКУПКАМ</button>
+               </div>
+             </div>
+             <div class="card swiper-slide">
+               <div class="image-content">
+                 <span class="overlay"></span>
+   
+                 <div class="card-image">
+                   <img src="./image/Brand2.png" alt="" class="card-img" />
+                 </div>
+               </div>
+   
+               <div class="card-content">
+                 <h2 class="name">ZENDEN</h2>
+                 <p class="description">
+                  Высокое качество, но доля ручного труда может быть средней и не особенно большой; финишинг очень хороший, равно как и кожа (но всё же не высшего класса)
+                 </p>
+   
+                 <button class="button">К ПОКУПКАМ</button>
+               </div>
+             </div>
+             <div class="card swiper-slide">
+               <div class="image-content">
+                 <span class="overlay"></span>
+   
+                 <div class="card-image">
+                   <img src="./image/Brand3.jpg" alt="" class="card-img" />
+                 </div>
+               </div>
+   
+               <div class="card-content">
+                 <h2 class="name">NIKE</h2>
+                 <p class="description">
+                  Высшее качество, что называется 5 звёзд; очень высокая доля ручной работы; великолепный финишинг, безупречная натуральная кожа.
+                 </p>
+   
+                 <button class="button">К ПОКУПКАМ</button>
+               </div>
+             </div>
+             <div class="card swiper-slide">
+               <div class="image-content">
+                 <span class="overlay"></span>
+   
+                 <div class="card-image">
+                   <img src="./image/Brand4.png" alt="" class="card-img" />
+                 </div>
+               </div>
+   
+               <div class="card-content">
+                 <h2 class="name">DEMIX</h2>
+                 <p class="description">
+                  Высокое качество, однако доля ручного труда не слишком высока; финишинг очень хороший, но явно не лучший; кожа очень хорошая.
+                 </p>
+   
+                 <button class="button">К ПОКУПКАМ</button>
+               </div>
+             </div>
+             <div class="card swiper-slide">
+               <div class="image-content">
+                 <span class="overlay"></span>
+   
+                 <div class="card-image">
+                   <img src="./image/Brand5.jpg" alt="" class="card-img" />
+                 </div>
+               </div>
+   
+               <div class="card-content">
+                 <h2 class="name">SCKECHERS</h2>
+                 <p class="description">
+                  Высокое качество, однако доля ручного труда не слишком высока; финишинг очень хороший, но явно не лучший; кожа очень хорошая.
+                 </p>
+   
+                 <button class="button">К ПОКУПКАМ</button>
+               </div>
+             </div>
+             <div class="card swiper-slide">
+               <div class="image-content">
+                 <span class="overlay"></span>
+   
+                 <div class="card-image">
+                   <img src="./image/Brend1.png" alt="" class="card-img" />
+                 </div>
+               </div>
+   
+               <div class="card-content">
+                 <h2 class="name">INSTREET</h2>
+                 <p class="description">
+                  Высокое качество, однако доля ручного труда не слишком высока; финишинг очень хороший, но явно не лучший; кожа очень хорошая.
+                 </p>
+   
+                 <button class="button">К ПОКУПКАМ</button>
+               </div>
+             </div>
+             <div class="card swiper-slide">
+               <div class="image-content">
+                 <span class="overlay"></span>
+   
+                 <div class="card-image">
+                   <img src="./image/Brand2.png" alt="" class="card-img" />
+                 </div>
+               </div>
+   
+               <div class="card-content">
+                 <h2 class="name">ZENDEN</h2>
+                 <p class="description">
+                  Высокое качество, но доля ручного труда может быть средней и не особенно большой; финишинг очень хороший, равно как и кожа (но всё же не высшего класса).
+                 </p>
+   
+                 <button class="button">К ПОКУПКАМ</button>
+               </div>
+             </div>
+             <div class="card swiper-slide">
+               <div class="image-content">
+                 <span class="overlay"></span>
+   
+                 <div class="card-image">
+                   <img src="./image/Brand3.jpg" alt="" class="card-img" />
+                 </div>
+               </div>
+   
+               <div class="card-content">
+                 <h2 class="name">NIKE</h2>
+                 <p class="description">
+                  Высшее качество, что называется 5 звёзд; очень высокая доля ручной работы; великолепный финишинг, безупречная натуральная кожа.
+                 </p>
+   
+                 <button class="button">К ПОКУПКАМ</button>
+               </div>
+             </div>
+             <div class="card swiper-slide">
+               <div class="image-content">
+                 <span class="overlay"></span>
+   
+                 <div class="card-image">
+                   <img src="./image/Brand4.png" alt="" class="card-img" />
+                 </div>
+               </div>
+   
+               <div class="card-content">
+                 <h2 class="name">DEMIXl</h2>
+                 <p class="description">
+                  Высокое качество, однако доля ручного труда не слишком высока; финишинг очень хороший, но явно не лучший; кожа очень хорошая.
+                 </p>
+   
+                 <button class="button">К ПОКУПКАМ</button>
+               </div>
+             </div>
+           </div>
+         </div>
+   
+         <div class="swiper-button-next swiper-navBtn"></div>
+         <div class="swiper-button-prev swiper-navBtn"></div>
+         <div class="swiper-pagination"></div>
+       </div>
+   
+         </main>
+        
+         
+<!-- ПОДВАЛ -->
+
+     <footer class="footer">
+       <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>О КОМПАНИИ</h4>
+            <ul>
+              <li><a href="#">О НАС</a></li>
+              <li><a href="#">КОНТАКТЫ</a></li>
+              <li><a href="#">ПРОГРАМММА ЛОЯЛЬНОСТИ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>ПОМОЩЬ</h4>
+            <ul>
+              <li><a href="#">ВОПРОС-ОТВЕТ</a></li>
+              <li><a href="#">СТАТУТС ДОСТАВКИ</a></li>
+              <li><a href="#">ПЛАТЕЖНЫЕ МЕТОДЫ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>ОНЛАЙН ПОКУПКИ</h4>
+            <ul>
+              <li><a href="#">ПРОСМОТР</a></li>
+              <li><a href="#">ОББУВЬ</a></li>
+              <li><a href="#">АКССЕСУАРЫ</a></li>
+            </ul>
+          </div>
+          
+          </div>
+        </div>
+       </div>
+    </footer>
+<!-- modal -->
+    
+   
+
+
+
+
+
+    <script src="js/swiper-bundle.min.js"></script>
+
+
+    <script src="js/script.js"></script>
+  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/remodal.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
