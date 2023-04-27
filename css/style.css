@@ -173,6 +173,50 @@ text-align: center;
 
 }
 
+@media (max-width:340px) {
+  .collection_div{
+    margin-top:70px;
+  }
+  
+  }
+  @media (max-width:360px) {
+    .collection_div{
+      margin-top:70px;
+    }
+    
+    }
+
+    @media (max-width:400px) {
+      .collection_div{
+        margin-top:70px;
+      }
+      
+      }
+      @media (max-width:500px) {
+        .collection_div{
+          margin-top:70px;
+        }
+        
+        }
+
+        @media (max-width:600px) {
+          .collection_div{
+            margin-top:70px;
+          }
+          
+          }
+          @media (max-width:700px) {
+            .collection_div{
+              margin-top:70px;
+            }
+            
+            }
+            @media (max-width:800px) {
+              .collection_div{
+                margin-top:70px;
+              }
+              
+              }
 /* ФИЛЬТР */
 
 .list{
